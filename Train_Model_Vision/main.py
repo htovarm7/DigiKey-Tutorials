@@ -1,3 +1,9 @@
+# Usage:
+#   pip install -r requirements.txt
+#   python main.py image --path path/to/image.jpg
+#   python main.py video --path path/to/video.mp4 --output result.mp4
+#   python main.py webcam [--camera 0]
+
 import cv2                      # for reading images/video/webcam frames and drawing boxes
 import torch                    # pytorch core
 from ultralytics import YOLO    # ultralytics wrapper, works with yolov5/yolov8 .pt models
